@@ -5,7 +5,6 @@ html * {
 html{
   background-color: black;
   opacity: 0.9;
-  font-size: 22px;
   align-items: center;
 }
 
@@ -22,6 +21,7 @@ html{
   z-index: 2;
   background-color: black;
   top: 0;
+  font-size: 22px;
 }
 .logo img {
   height: 50px;
@@ -41,11 +41,6 @@ span{
 nav {
   flex-grow: 1;
   text-align: right;
-
-}
-.tea{
-  text-decoration: underline;
-  color: seashell;
 }
 
 /*Mission Section*/
@@ -66,4 +61,34 @@ align-items: center;
  background-color: black;
  flex-grow: 1;
  text-align: center;
+}
+h4 {
+  font-size: 22px;
+}
+.container{
+  display: flex;
+  max-width: 1000px;
+}
+.tea{
+  text-align: center;
+  padding: 60px;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pix{
+  display: block;
+  margin: 20px;
+}
+.pix img{
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+.pix h4{
+  text-align: center;
+
 }
