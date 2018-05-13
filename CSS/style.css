@@ -1,12 +1,12 @@
 html * {
   font-family: helvetica, sans-serif;
-  font-size: 22px;
   color: seashell;
-  align-items: center;
 }
 html{
   background-color: black;
   opacity: 0.9;
+  font-size: 22px;
+  align-items: center;
 }
 
   /*Heading*/
@@ -19,14 +19,16 @@ html{
   height: 69px;
   flex-wrap: wrap;
   align-items: center;
-
+  z-index: 2;
+  background-color: black;
+  top: 0;
 }
 .logo img {
   height: 50px;
 }
 
 .logo {
-padding-left: 10px;
+  padding-left: 10px;
 }
 
 span{
@@ -48,7 +50,7 @@ nav {
 
 /*Mission Section*/
 
-.Mish {
+.mish {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
@@ -57,6 +59,11 @@ nav {
   justify-content:center;
   align-items: center;
 }
-h2 {
-  background-color: black;
+.mish .txt {
+display: block;
+justify-content: center;
+align-items: center;
+ background-color: black;
+ flex-grow: 1;
+ text-align: center;
 }
