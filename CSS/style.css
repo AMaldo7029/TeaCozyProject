@@ -2,6 +2,7 @@ html * {
   font-family: helvetica, sans-serif;
   color: seashell;
 }
+
 html{
   background-color: black;
   opacity: 0.9;
@@ -23,6 +24,7 @@ html{
   top: 0;
   font-size: 22px;
 }
+
 .logo img {
   height: 50px;
 }
@@ -35,7 +37,6 @@ span{
   padding: 20px 10px;
   display: inline-block;
   margin-right: 10px;
-
 }
 
 nav {
@@ -54,6 +55,7 @@ nav {
   justify-content:center;
   align-items: center;
 }
+
 .mish .txt {
  display: block;
  justify-content: center;
@@ -62,17 +64,21 @@ nav {
  flex-grow: 1;
  text-align: center;
 }
-h4 {
-  font-size: 22px;
 
+ h4 {
+  font-size: 22px;
+  margin:0;
 }
+
 .container{
   display: flex;
   max-width: 1000px;
 }
+
 .tea{
   text-align: center;
 }
+
 .container2{
   display: flex;
   flex-direction: row;
@@ -80,38 +86,102 @@ h4 {
   justify-content: center;
   padding: 5px;
 }
+
 .pix{
   display: block;
   margin: 20px;
 }
+
 .pix img{
   display: block;
   height: 200px;
   width: 300px;
 }
+
 .pix h4{
   text-align: center;
 }
+
 #tom{
   padding-top: 70px;
 }
+
 #steep{
   margin: 0;
 }
+
 .container2 h4{
   margin:0;
   margin-top: 10px;
 }
+
 .loc{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   justify-content: center;
-  align-items: center;
+  align-items: center; /*Maybe don't need*/
   height: 500px;
   width: 1200px;
   margin: auto;
+  flex-direction: column;
 }
+
 h1 {
   text-align: center;
   margin: 0 auto;
+  padding: 10px
+}
+
+.parent2 {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 280px;
+  margin-top: 15px;
+}
+
+.block1{
+background-color: black;
+display:flex;
+justify-content: center;
+flex-direction: column;
+width: 300px;
+text-align: center;
+margin-right: 40px;
+font-size: 22px;
+}
+
+.block2{
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 22px;
+  opacity: 1;
+}
+
+.block3{
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  font-size: 22px;
+  opacity: 1;
+}
+
+.Ending{
+display: block;
+flex-flow: column;
+text-align: center;
+height: 200px;
+font-size: 22px;
+margin: auto;
+}
+.Ending h2{
+  padding: 10px;
+  margin: 0;
 }
