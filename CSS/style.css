@@ -181,7 +181,13 @@ height: 200px;
 font-size: 22px;
 margin: auto;
 }
+
 .Ending h2{
   padding: 10px;
   margin: 0;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
